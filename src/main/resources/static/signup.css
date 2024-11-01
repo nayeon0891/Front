@@ -1,0 +1,122 @@
+/* 기본 스타일 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 컨테이너 설정 */
+.signup-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 헤더 및 타이틀 */
+.signup-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.signup-header h1 {
+    color: #2ECC71;
+    font-size: 24px;
+}
+
+.signup-header .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* 제목 스타일 */
+h2 {
+    color: #333333;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+/* 폼 스타일 */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* 폼 그룹 스타일 */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* 입력창 스타일 */
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+/* 입력 그룹 스타일 */
+.input-group {
+    display: flex;
+    align-items: center; /* 세로 정렬 */
+}
+
+/* 중복 확인 버튼 */
+.duplicate-check-btn {
+    background-color: #D1F2EB;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #2ECC71;
+    margin-left: 10px; /* 버튼과 입력란 사이의 간격 추가 */
+}
+
+/* 약관 및 체크박스 스타일 */
+.terms {
+    text-align: left;
+    font-size: 14px;
+}
+
+.terms label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* 회원가입 버튼 */
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ECC71;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 로그인 링크 */
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #2ECC71;
+    text-decoration: none;
+}
